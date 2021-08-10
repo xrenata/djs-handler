@@ -1,7 +1,8 @@
 const { Client, Intents,Collection } = require('discord.js');
 const fs = require('fs')
 const config = require("./config.json")
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });// intentler detayları djs guide adresinde daha iyi bulursunuz.
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] }); 
+/* Tüm Intent adları için https://github.com/discordjs/discord.js/blob/stable/src/util/Intents.js#L46 adresini ziyaret edebilirsiniz.*/
 client.commands = new Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
