@@ -22,4 +22,4 @@ Dosya içine 3 adet events koydum integrasyonlar için olana bakmanızı tavsiye
 # Butonlar Yardım menüleri vs.
 https://discordjs.guide/interactions/buttons.html
 
-https://discord.gg/react 🖤 https://discord.gg/codare
+🖤 https://discord.gg/codare
